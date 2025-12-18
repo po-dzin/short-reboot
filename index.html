@@ -17,7 +17,28 @@
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/media.css">
- 
+
+    <!-- Meta Pixel Code (BASE) -->
+    <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    
+    fbq('init', 'PIXEL_ID');
+    fbq('track', 'PageView');
+    </script>
+    <noscript>
+    <img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=PIXEL_ID&ev=PageView&noscript=1"/>
+    </noscript>
+    <!-- End Meta Pixel Code -->
+
+    
 </head>
 <body>
     
@@ -32,10 +53,9 @@
                 <h3> Біль у шиї? Натяжіння у спині? Дискомфорт у колінах? Скутість у зап'ястях? Втомлення? Стрес?</h3>
 <Br><Br>
 💪 Ми знаємо, як вам допомогти!
- <br><br>
+<br><br>
 ⚡️ Наша програма <strong>'Short-Перезавантаження'</strong> - всього за 10 хвилин – принесе вам миттєве полегшення та енергію для ефективного дня!
 <br><Br>
-
 🎁 Отримайте доступ до бонусів та додаткових матеріалів для ще більшої користі!
 <br><br>
 🌟 Гарний сон, зменшення впливу стресу та ПТСР – насолодження кожною миттю життя!
@@ -445,8 +465,20 @@
     <script src="js/jquery.cookie.js"></script>
     <script src="js/common.js" async=""></script>
 
+    <script>
+    /** Attribution capture v1 (UTM + cr + lv + fbclid) */
+    (function(){
+      const qs = new URLSearchParams(location.search);
+      const keys = ['utm_source','utm_medium','utm_campaign','utm_content','lv','cr','fbclid'];
+      const attrib = {};
+      keys.forEach(k => {
+        const v = qs.get(k);
+        if (v) attrib[k] = v;
+      });
+      if (Object.keys(attrib).length) {
+        try { localStorage.setItem('cw_attrib', JSON.stringify(attrib)); } catch(e) {}
+      }
+    })();
+    </script>
 
-
-
-
-</small></body></html>
+</body></html>
