@@ -832,12 +832,6 @@ background: #EE877C;
     text-align: center;
   }
 
- .footer #footer-right .item {
-    display: flex;
-    justify-content: center;    /* іконки по центру */
-    gap: 12px;
-  }	
-
   .footer-logo-payments {
     justify-content: center;
   }
