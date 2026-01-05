@@ -734,13 +734,14 @@ background: #EE877C;
 .footer-content {
     display: flex;
     /* flex-wrap: wrap;*/
+	align-items: center;
     justify-content: space-between;
-    margin-bottom: 23px;
+    gap: 32px;
 }
 
 .footer-section {
-    /*width: 30%;*/
-     width: 100%;
+    width: auto;
+    flex: 1 1 0;
     margin-bottom: 20px;
 }
 
@@ -767,7 +768,7 @@ background: #EE877C;
     text-decoration: none;
 }
 
-.footer-section ul li a:hover {
+.footer-section ul li a: hover {
     text-decoration: underline;
 }
 .footer .item img    {
@@ -775,19 +776,32 @@ background: #EE877C;
    margin-bottom: 30px;
 }
 
-#footercenter {
-text-align:center;
+#footer-center {
+text-align: center;
 .a {
-  color:inherit;
+	color: inherit;	
+   }
 }
-}
-#footercenter a{
 
-  color:inherit;
+#footercenter a:hover {
+  text-decoration: underline;
+}
 
 }
-#footerright {
-  text-align:end;
+#footer-right {
+  text-align: right;
+}
+
+.footer-logo-payments {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.footer-logo-payments .pay img {
+  height: 28px;
+  width: auto;
+  margin: 0;
 }
 
 
