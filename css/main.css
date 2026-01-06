@@ -731,10 +731,6 @@ background: #EE877C;
     padding: 50px 0;
 }
 
-.footer img {
-	display: block;
-}
-
 .footer-content {
     display: flex;
     /* flex-wrap: wrap;*/
