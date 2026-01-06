@@ -819,6 +819,10 @@ background: #EE877C;
 		gap: 16px;
   	}
 
+	.footer {
+    padding-bottom: 140px;
+    }
+
 	.footer-section {
     	width: auto;
     	margin-bottom: 0;
