@@ -826,7 +826,7 @@ background: #EE877C;
   	}
 
 	.footer {
-    padding-bottom: 20px;
+    padding-bottom: 40px;
     }
 
 	.footer-section {
@@ -837,7 +837,6 @@ background: #EE877C;
  	.footer-left {
     	flex-direction: column;
 		align-items: center;
-    	min-width: 0;
 		gap: 12px;
   	}
 
@@ -850,14 +849,14 @@ background: #EE877C;
  	}	
 	
   	.footer-logo-payments {
-    	justify-content: center;
-		margin-left: 0;
+    	justify-content: column;
+		align-items: center;
+		gap: 8px;
   	}
 
 	.footer #footer-right .item {
    		display: flex;
     	justify-content: center;
-    	flex-wrap: wrap;
     	gap: 12px;
     	margin-top: 10px;
   	}
@@ -870,9 +869,7 @@ background: #EE877C;
   	.footer #footer-right .item img {
     	width: 28px;      /* подбери: 24–32px */
     	height: 28px;
-    	object-fit: contain;
     	display: block;
-		margin-bottom: 0;
   	}
 }
 
