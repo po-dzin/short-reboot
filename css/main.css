@@ -810,6 +810,7 @@ background: #EE877C;
 }
 
 .footer-logo-payments img {
+  align-items: center;	
   height: 80px;
   width: auto;
   margin: 0px;
