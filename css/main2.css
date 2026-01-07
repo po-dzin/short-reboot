@@ -14,9 +14,14 @@ p {
 }
 
 ul li, ol li {
-  font-weight: normal;
+   font-weight: normal;
 }
 
-#public-offer a:hover {
+a {
+   color: inherit;
+   text-decoration: none;
+}
+
+a:hover {
    text-decoration: underline;
 }
