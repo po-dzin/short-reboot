@@ -61,7 +61,10 @@ section:not(.s1) h2 {
   font-size: 36px;
   color: #111111;
   text-transform: none;
-  margin-bottom: 16px;
+}
+
+section:not(.s1):not(.s2):not(.s3) h2 {
+  margin-bottom: 24px;
 }
 
 input[type='text'] {
@@ -400,6 +403,10 @@ img {
 .s2 h2,
 .s2 p {
   text-align: center;
+}
+
+.s2 h2 {
+  margin-bottom: 16px;
 }
 
 .s2 p {
