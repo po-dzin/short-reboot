@@ -273,6 +273,15 @@
     grid-template-columns: 1fr;
   }
 
+  .s55 .s55-text {
+    text-align: left;
+    padding-right: 0;
+    width: 100%;
+    max-width: 520px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .s55 img {
     position: relative;
     width: 100%;
@@ -283,10 +292,14 @@
     display: block;
   }
 
-  .s55 h2,
-  .s55 p {
+  .s55 h2 {
     text-align: center;
     display: block;
+  }
+
+  .s55 p,
+  .s55 ul {
+    text-align: left;
   }
 
   .s8 .lesson {
