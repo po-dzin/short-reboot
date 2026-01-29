@@ -16,7 +16,7 @@ $(".openModal").click(function(e) {
   }
 
   // 3) открываем оплату
-  onst API_BASE = "https://centerway-backend.vercel.app"; // твой vercel backend
+  const API_BASE = "https://centerway-backend.vercel.app"; // твой vercel backend
   const PRODUCT_CODE = "short"; // на short-лендинге будет "short"
 
   const payUrl = `${API_BASE}/api/pay/start?product=${encodeURIComponent(PRODUCT_CODE)}`;
